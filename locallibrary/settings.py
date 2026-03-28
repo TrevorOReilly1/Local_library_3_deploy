@@ -135,8 +135,12 @@ BASE_DIR / "catalog" / "static",
 ]
 # WhiteNoise (recommended with DEBUG=False)
 STATICFILES_STORAGE ="whitenoise.storage.CompressedManifestStaticFilesStorage"
+# WhiteNoise (recommended with DEBUG=False)
+STATICFILES_STORAGE ="whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 GOOGLEBOOKS_API_KEY = 'AIzaSyCwr24fkN43AziEirJsQrylhjbPLbPFulk'
+
+
